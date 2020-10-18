@@ -1,10 +1,10 @@
 # CraiglistScraper
-A python scraper script for Craiglist for camera year
+A python scraper script for Craiglist for camera gear
 
 ## Goals
 - Learn about Selenium and browser automation
 - Cut down on search time
-- Find more camera gear
+- Find more camera gear for my olympus camear. I'm looking for the macro lens
 
 ## How to Run
 Install Chrome webdriver
