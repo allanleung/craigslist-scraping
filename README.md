@@ -9,11 +9,11 @@ A python scraper script for Craiglist for camera year
 ## How to Run
 Install Chrome webdriver
 `brew cask install chromedriver`
-`brew install selenium-server-standalone` or `sudo easy_install selenium`
+`brew install selenium-server-standalone`
 Install python dependencies
 `pip3 install selenium`
 Run the script with
-`python scraper.py`
+`python main.py`
 Change variables to search criteria
 
 ## Future Features
