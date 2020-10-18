@@ -1,4 +1,5 @@
 from selenium import webdriver
+import time
 from datetime import datetime
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 from selenium.webdriver.firefox.options import Options
@@ -7,7 +8,6 @@ from bs4 import BeautifulSoup
 # basic setup
 
 DRIVER_PATH = "~/Users/allanleung/Applications/Firefox.app"
-
 BASE_URL = 'https://vancouver.craigslist.org/'
 QUERY = 'olympus'
 
@@ -33,6 +33,6 @@ totalPosts = [post for post in totalPosts if QUERY in post.find('a', class_='res
 
 for i, post in enumerate(totalPosts):
     postTitle = post.find('a', class_='result-title').get_text()
-    print(f'{i}: {postTitle}' )
+    print('{i}: {postTitle}' )
 
 driver.quit()
